@@ -1,22 +1,22 @@
 const questions = [
     {
         question: "Do u love me???",
-        gifUrl: ""C:\Users\ASUS\Downloads\Cat Love GIF by NGcorpvtc.gif"" // Replace with your actual GIF path
+        gifUrl: "images/Cat Love GIF by NGcorpvtc.gif" // Replace with your actual GIF path
     },
     {
         question: "Ik u dont love me,y???",
-        gifUrl: ""C:\Users\ASUS\Downloads\Mad Coffee GIF.gif"" // Replace with your actual GIF path
+        gifUrl: "images/Mad Coffee GIF.gif" // Replace with your actual GIF path
     },
     {
         question: "of u love me or not i love u,understand???",
-        gifUrl: ""C:\Users\ASUS\Downloads\Mad Grumpy Cat GIF by MOODMAN.gif"" // Replace with your actual GIF path
+        gifUrl: "images/Mad Grumpy Cat GIF by MOODMAN.gif"" // Replace with your actual GIF path
     },
     {
         question: "will u marry mee???",
-        gifUrl: "C:\Users\ASUS\Downloads\Mad Coffee GIF.gif" // Replace with your actual GIF path
+        gifUrl: "images/Mad Coffee GIF.gif" // Replace with your actual GIF path
     },
     { question: "please????",
-        gifUrl: "C:\Users\ASUS\Downloads\Mad Coffee GIF.gif" // Replace with your actual GIF path
+        gifUrl: "images/Mad Coffee GIF.gif" // Replace with your actual GIF path
     },
 ];
 
