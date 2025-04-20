@@ -1,18 +1,22 @@
 const questions = [
     {
-        question: " Do you love me?",
+        question: "Do u love me???",
+        gifUrl: ""C:\Users\ASUS\Downloads\Cat Love GIF by NGcorpvtc.gif"" // Replace with your actual GIF path
     },
     {
-        question: " I know you dont love me,Why?",
+        question: "Ik u dont love me,y???",
+        gifUrl: ""C:\Users\ASUS\Downloads\Mad Coffee GIF.gif"" // Replace with your actual GIF path
     },
     {
-        question: "if u love me oru not I love u ,is it ok???",
+        question: "of u love me or not i love u,understand???",
+        gifUrl: ""C:\Users\ASUS\Downloads\Mad Grumpy Cat GIF by MOODMAN.gif"" // Replace with your actual GIF path
     },
     {
-        question: "will you marry me????",
+        question: "will u marry mee???",
+        gifUrl: "C:\Users\ASUS\Downloads\Mad Coffee GIF.gif" // Replace with your actual GIF path
     },
-    {
-        question: "please????",
+    { question: "please????",
+        gifUrl: "C:\Users\ASUS\Downloads\Mad Coffee GIF.gif" // Replace with your actual GIF path
     },
 ];
 
@@ -21,17 +25,20 @@ const questionTextElement = document.getElementById('question-text');
 const questionContainer = document.getElementById('question-container');
 const endStatementElement = document.getElementById('end-statement');
 const finalMessageElement = document.getElementById('final-message');
+const questionGifElement = document.getElementById('question-gif'); // Get the image element
 
 function showQuestion() {
     if (currentQuestionIndex < questions.length) {
         questionTextElement.textContent = questions[currentQuestionIndex].question;
+        questionGifElement.src = questions[currentQuestionIndex].gifUrl; // Set the GIF source
     } else {
         showEndStatement();
+        questionGifElement.src = ""; // Optionally clear the GIF at the end
     }
 }
 
 function nextQuestion(answer) {
-    console.log(`Answer to question ${currentQuestionIndex + 1}: ${answer}`); // For debugging
+    console.log(`Answer to question ${currentQuestionIndex + 1}: ${answer}`);
 
     currentQuestionIndex++;
     showQuestion();
@@ -40,7 +47,6 @@ function nextQuestion(answer) {
 function showEndStatement() {
     questionContainer.style.display = 'none';
     endStatementElement.style.display = 'block';
-
     finalMessageElement.textContent = "Thank you for answering the questions!";
 }
 
