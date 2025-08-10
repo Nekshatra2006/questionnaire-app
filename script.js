@@ -1,3 +1,4 @@
+alert("Script linked successfully!");
 const questions = [
     {
         question: "Do u love me???",
