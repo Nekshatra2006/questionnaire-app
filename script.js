@@ -10,13 +10,20 @@ const questions = [
     {
         question: "of u love me or not i love u,understand???",
         gifUrl: "images/Mad Grumpy Cat GIF by MOODMAN.gif" // Replace with your actual GIF path
+
+        gifUrl: "images/Mad Grumpy Cat GIF by MOODMAN.gif"" // Replace with your actual GIF path
+
     },
     {
         question: "will u marry mee???",
         gifUrl: "images/Mad Coffee GIF.gif" // Replace with your actual GIF path
     },
     { question: "please????",
+<<<<<<< HEAD
         gifUrl: "images/Happy I Love You GIF by Pembe.gif" // Replace with your actual GIF path
+=======
+        gifUrl: "images/Mad Coffee GIF.gif" // Replace with your actual GIF path
+>>>>>>> 6f6126a92c5bf20d30fba6e94a7f36a220ce9966
     },
 ];
 
