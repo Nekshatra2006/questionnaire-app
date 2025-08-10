@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Question Game</title>
+    <title>Question GIF App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="question-container">
-        <h1 id="question-text">Loading question...</h1>
-        <img id="question-gif" src="" alt="GIF will appear here">
+        <h2 id="question">Loading question...</h2>
+        <img id="gif" src="" alt="GIF will appear here">
     </div>
 
     <div id="answer-buttons">
-        <button class="answer-button" data-answer="yes">Yes</button>
-        <button class="answer-button" data-answer="maybe">Maybe</button>
-        <button class="answer-button" data-answer="no">No</button>
+        <button class="answer-button" id="yesBtn">Yes</button>
+        <button class="answer-button" id="maybeBtn">Maybe</button>
+        <button class="answer-button" id="noBtn">No</button>
     </div>
 
-    <!-- This connects your JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
